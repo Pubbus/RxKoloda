@@ -59,3 +59,4 @@ extension Reactive where Base: KolodaView {
             return RxKolodaViewDataSourceProxy.installForwardDelegate(dataSource, retainDelegate: false, onProxyForObject: self.base)
     }
 }
+

@@ -99,7 +99,7 @@ class RxKolodaViewReactiveArrayDataSource<Element>
   }
 
   override func _kolodaNumberOfCards(_ koloda: KolodaView) -> Int {
-    return itemModels!.count
+    return itemModels?.count ?? 0
   }
 
   override func _koloda(_ koloda: KolodaView, viewForCardAt index: Int) -> UIView {
