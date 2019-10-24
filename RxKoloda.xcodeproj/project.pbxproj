@@ -1,0 +1,425 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9626120E23618CF900ABF1D1 /* RxKoloda.h in Headers */ = {isa = PBXBuildFile; fileRef = 9626120C23618CF900ABF1D1 /* RxKoloda.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9626121D23618D0400ABF1D1 /* KolodaView+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9626121523618D0400ABF1D1 /* KolodaView+Rx.swift */; };
+		9626121E23618D0400ABF1D1 /* RxKolodaViewReactiveArrayDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9626121623618D0400ABF1D1 /* RxKolodaViewReactiveArrayDataSource.swift */; };
+		9626121F23618D0400ABF1D1 /* RxKolodaViewDataSourceType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9626121723618D0400ABF1D1 /* RxKolodaViewDataSourceType.swift */; };
+		9626122023618D0400ABF1D1 /* RxKolodaDataSourceProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9626121923618D0400ABF1D1 /* RxKolodaDataSourceProxy.swift */; };
+		9626122123618D0400ABF1D1 /* RxHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9626121B23618D0400ABF1D1 /* RxHelpers.swift */; };
+		9626122223618D0400ABF1D1 /* RxKolodaViewDelegateProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9626121C23618D0400ABF1D1 /* RxKolodaViewDelegateProxy.swift */; };
+		9626122323618D1A00ABF1D1 /* Koloda.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9698951F2361838700F7B483 /* Koloda.framework */; };
+		9626122423618D1A00ABF1D1 /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9698951D2361838700F7B483 /* RxCocoa.framework */; };
+		9626122523618D1A00ABF1D1 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9698951E2361838700F7B483 /* RxSwift.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9626120A23618CF900ABF1D1 /* RxKoloda.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RxKoloda.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9626120C23618CF900ABF1D1 /* RxKoloda.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RxKoloda.h; sourceTree = "<group>"; };
+		9626120D23618CF900ABF1D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9626121523618D0400ABF1D1 /* KolodaView+Rx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "KolodaView+Rx.swift"; sourceTree = "<group>"; };
+		9626121623618D0400ABF1D1 /* RxKolodaViewReactiveArrayDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RxKolodaViewReactiveArrayDataSource.swift; sourceTree = "<group>"; };
+		9626121723618D0400ABF1D1 /* RxKolodaViewDataSourceType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RxKolodaViewDataSourceType.swift; sourceTree = "<group>"; };
+		9626121923618D0400ABF1D1 /* RxKolodaDataSourceProxy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RxKolodaDataSourceProxy.swift; sourceTree = "<group>"; };
+		9626121B23618D0400ABF1D1 /* RxHelpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RxHelpers.swift; sourceTree = "<group>"; };
+		9626121C23618D0400ABF1D1 /* RxKolodaViewDelegateProxy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RxKolodaViewDelegateProxy.swift; sourceTree = "<group>"; };
+		9698951D2361838700F7B483 /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Carthage/Build/iOS/RxCocoa.framework; sourceTree = "<group>"; };
+		9698951E2361838700F7B483 /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/iOS/RxSwift.framework; sourceTree = "<group>"; };
+		9698951F2361838700F7B483 /* Koloda.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Koloda.framework; path = Carthage/Build/iOS/Koloda.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9626120723618CF900ABF1D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9626122323618D1A00ABF1D1 /* Koloda.framework in Frameworks */,
+				9626122423618D1A00ABF1D1 /* RxCocoa.framework in Frameworks */,
+				9626122523618D1A00ABF1D1 /* RxSwift.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9626120B23618CF900ABF1D1 /* RxKoloda */ = {
+			isa = PBXGroup;
+			children = (
+				9626121223618D0400ABF1D1 /* Sources */,
+				9626120C23618CF900ABF1D1 /* RxKoloda.h */,
+				9626120D23618CF900ABF1D1 /* Info.plist */,
+			);
+			path = RxKoloda;
+			sourceTree = "<group>";
+		};
+		9626121223618D0400ABF1D1 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				9626121323618D0400ABF1D1 /* DataSources */,
+			);
+			path = Sources;
+			sourceTree = SOURCE_ROOT;
+		};
+		9626121323618D0400ABF1D1 /* DataSources */ = {
+			isa = PBXGroup;
+			children = (
+				9626121423618D0400ABF1D1 /* Koloda+Rx */,
+				9626121823618D0400ABF1D1 /* RxProxies */,
+				9626121A23618D0400ABF1D1 /* RxHelpers */,
+			);
+			path = DataSources;
+			sourceTree = "<group>";
+		};
+		9626121423618D0400ABF1D1 /* Koloda+Rx */ = {
+			isa = PBXGroup;
+			children = (
+				9626121523618D0400ABF1D1 /* KolodaView+Rx.swift */,
+				9626121623618D0400ABF1D1 /* RxKolodaViewReactiveArrayDataSource.swift */,
+				9626121723618D0400ABF1D1 /* RxKolodaViewDataSourceType.swift */,
+			);
+			path = "Koloda+Rx";
+			sourceTree = "<group>";
+		};
+		9626121823618D0400ABF1D1 /* RxProxies */ = {
+			isa = PBXGroup;
+			children = (
+				9626121923618D0400ABF1D1 /* RxKolodaDataSourceProxy.swift */,
+			);
+			path = RxProxies;
+			sourceTree = "<group>";
+		};
+		9626121A23618D0400ABF1D1 /* RxHelpers */ = {
+			isa = PBXGroup;
+			children = (
+				9626121B23618D0400ABF1D1 /* RxHelpers.swift */,
+				9626121C23618D0400ABF1D1 /* RxKolodaViewDelegateProxy.swift */,
+			);
+			path = RxHelpers;
+			sourceTree = "<group>";
+		};
+		969894F723617EA000F7B483 = {
+			isa = PBXGroup;
+			children = (
+				9626120B23618CF900ABF1D1 /* RxKoloda */,
+				9698950123617EA000F7B483 /* Products */,
+				9698951C2361838600F7B483 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9698950123617EA000F7B483 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9626120A23618CF900ABF1D1 /* RxKoloda.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9698951C2361838600F7B483 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9698951F2361838700F7B483 /* Koloda.framework */,
+				9698951D2361838700F7B483 /* RxCocoa.framework */,
+				9698951E2361838700F7B483 /* RxSwift.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		9626120523618CF900ABF1D1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9626120E23618CF900ABF1D1 /* RxKoloda.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		9626120923618CF900ABF1D1 /* RxKoloda */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9626120F23618CF900ABF1D1 /* Build configuration list for PBXNativeTarget "RxKoloda" */;
+			buildPhases = (
+				9626120523618CF900ABF1D1 /* Headers */,
+				9626120623618CF900ABF1D1 /* Sources */,
+				9626120723618CF900ABF1D1 /* Frameworks */,
+				9626120823618CF900ABF1D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RxKoloda;
+			productName = RxKoloda;
+			productReference = 9626120A23618CF900ABF1D1 /* RxKoloda.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		969894F823617EA000F7B483 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1110;
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = Pubbus;
+				TargetAttributes = {
+					9626120923618CF900ABF1D1 = {
+						CreatedOnToolsVersion = 11.1;
+					};
+				};
+			};
+			buildConfigurationList = 969894FB23617EA000F7B483 /* Build configuration list for PBXProject "RxKoloda" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 969894F723617EA000F7B483;
+			productRefGroup = 9698950123617EA000F7B483 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9626120923618CF900ABF1D1 /* RxKoloda */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9626120823618CF900ABF1D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9626120623618CF900ABF1D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9626121F23618D0400ABF1D1 /* RxKolodaViewDataSourceType.swift in Sources */,
+				9626122023618D0400ABF1D1 /* RxKolodaDataSourceProxy.swift in Sources */,
+				9626122123618D0400ABF1D1 /* RxHelpers.swift in Sources */,
+				9626121E23618D0400ABF1D1 /* RxKolodaViewReactiveArrayDataSource.swift in Sources */,
+				9626122223618D0400ABF1D1 /* RxKolodaViewDelegateProxy.swift in Sources */,
+				9626121D23618D0400ABF1D1 /* KolodaView+Rx.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		9626121023618CF900ABF1D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = RWWB79843X;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = RxKoloda/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Pubbus.RxKoloda;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9626121123618CF900ABF1D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = RWWB79843X;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = RxKoloda/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Pubbus.RxKoloda;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9698951223617EA400F7B483 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9698951323617EA400F7B483 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9626120F23618CF900ABF1D1 /* Build configuration list for PBXNativeTarget "RxKoloda" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9626121023618CF900ABF1D1 /* Debug */,
+				9626121123618CF900ABF1D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		969894FB23617EA000F7B483 /* Build configuration list for PBXProject "RxKoloda" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9698951223617EA400F7B483 /* Debug */,
+				9698951323617EA400F7B483 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 969894F823617EA000F7B483 /* Project object */;
+}
